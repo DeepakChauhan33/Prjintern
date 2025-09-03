@@ -1,6 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-// import {camera} from "lucide-react"
+
 
 const Account = () => {
   return (
