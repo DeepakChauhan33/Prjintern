@@ -5,9 +5,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 const Account = () => {
   return (
     <>
-          <main className="flex justify-center items-center h-dvh w-screen bg-gray-100">
-      {/* Card */}
-      <div className="flex flex-col w-full h-full sm:h-[75%] sm:max-w-[380px] sm:rounded-lg sm:shadow-lg bg-white">
+      <main className='sm:flex sm:justify-center sm:items-center sm:h-screen sm:w-screen'>
+
+            <div 
+            className='  flex flex-col h-full  sm:h-[75%] sm:max-w-[380px] sm:rounded-lg sm:shadow-lg bg-gray-100'>
                 <p className='p-4 bg-gray-500'>Account Setting</p>
 
                 <div className='flex  w-full p-1.5 '>
