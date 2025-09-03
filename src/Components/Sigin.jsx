@@ -13,9 +13,9 @@ const Sigin = () => {
         <>
 
 
-           <main className='sm:flex sm:justify-center sm:items-center sm:h-screen sm:w-screen'>
+           <main className='h-dvh sm:flex sm:justify-center sm:items-center sm:h-screen sm:w-screen'>
 
-            <div className='p-4 flex flex-col  h-[100vh] gap-3 sm:h-[75%] sm:min-w-[380px] sm:rounded-lg sm:shadow-lg bg-gray-100'>
+            <div className='p-4 flex flex-col  h-full gap-3 sm:h-[75%] sm:min-w-[380px] sm:rounded-lg sm:shadow-lg bg-gray-100'>
 
               <h1 className='text-2xl font-bold mb-2'>
                 Signin to your <br/>

@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 const Account = () => {
   return (
     <>
-      <main className='sm:flex sm:justify-center sm:items-center sm:h-screen sm:w-screen'>
+      <main className='h-dvh sm:flex sm:justify-center sm:items-center sm:h-screen sm:w-screen'>
 
             <div 
             className='  flex flex-col h-full  sm:h-[75%] sm:max-w-[380px] sm:rounded-lg sm:shadow-lg bg-gray-100'>
