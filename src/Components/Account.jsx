@@ -8,7 +8,7 @@ const Account = () => {
       <main className='sm:flex sm:justify-center sm:items-center sm:h-screen sm:w-screen'>
 
             <div 
-            className='  flex flex-col  h-[100vh]  sm:h-[75%] sm:max-w-[380px] sm:rounded-lg sm:shadow-lg bg-gray-100'>
+            className='  flex flex-col  h-full  sm:h-[75%] sm:max-w-[380px] sm:rounded-lg sm:shadow-lg bg-gray-100'>
                 <p className='p-4 bg-gray-500'>Account Setting</p>
 
                 <div className='flex  w-full p-1.5 '>
