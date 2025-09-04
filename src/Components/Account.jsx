@@ -2,38 +2,43 @@ import React from 'react'
 
 
 const Account = () => {
-  return (
-    <>
-      <main className='h-dvh sm:flex sm:justify-center sm:items-center sm:h-screen sm:w-screen'>
+    return (
+        <>
+            <main className='h-dvh sm:flex sm:justify-center sm:items-center sm:h-screen sm:w-screen'>
 
-            <div 
-            className='  flex flex-col h-full  sm:h-[75%] sm:max-w-[380px] sm:rounded-lg sm:shadow-lg bg-gray-100'>
-                <p className='p-4 bg-gray-500'>Account Setting</p>
+                <div
+                    className='  flex flex-col h-full  sm:h-[75%] sm:max-w-[380px] sm:rounded-lg sm:shadow-lg bg-gray-100'>
+                        
+                    <p
+                        className='p-4 bg-gray-500 text-lg sm:text-2xl'>
+                        Account Setting
+                    </p>
 
-                <div className='flex  w-full p-1.5 '>
+                    <div className='flex  w-full p-1.5 '>
 
-                    <div>
-                    <img 
-                    className=' h-18 w-18 rounded-full mr-2.5 object-cover mt-1.5'
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrHo2ZyyMTK_nsBZhMGUcOoMtI1U083DKd6EUExMH_AqhC0GUACUazaLnxpgfK0ZhB8n0&usqp=CAU" alt="" />
+                        <div>
+                            <img
+                                className=' h-18 w-18 rounded-full mr-2.5 object-cover mt-1.5'
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrHo2ZyyMTK_nsBZhMGUcOoMtI1U083DKd6EUExMH_AqhC0GUACUazaLnxpgfK0ZhB8n0&usqp=CAU"
+                                alt="img"
+                            />
+                        </div>
 
+                        <div>
+                            <strong>Marry Doe</strong>
+                            <p className='text-[15px]'>Marry@gmail.com</p>
+                        </div>
                     </div>
 
-                    <div className=''>
-                        <strong>Marry Doe</strong>
-                    <p className='text-[15px]'>Marry@gmail.com</p>
-                    </div>
+                    <p
+                        className='text-sm sm:text-[16px] p-4'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, sunt? Suscipit ducimus eligendi, unde provident voluptas debitis tempora reprehenderit quam.
+                    </p>
                 </div>
 
-                <p 
-                className='text-[13px] p-4'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, sunt? Suscipit ducimus eligendi, unde provident voluptas debitis tempora reprehenderit quam.
-                </p>
-            </div>
-
-        </main>
-    </>
-  )
+            </main>
+        </>
+    )
 }
 
 export default Account

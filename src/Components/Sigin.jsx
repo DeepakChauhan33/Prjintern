@@ -17,7 +17,7 @@ const Sigin = () => {
 
         <div className='p-4 flex flex-col  h-full gap-3 sm:h-[75%] sm:min-w-[380px] sm:rounded-lg sm:shadow-lg bg-gray-100'>
 
-          <h1 className='text-2xl font-bold mb-2'>
+          <h1 className='text-2xl font-semibold mb-2'>
             Signin to your <br />
             PopX account
           </h1>
@@ -36,7 +36,7 @@ const Sigin = () => {
 
               <input
                 className='h-10 outline-none'
-                type="text" 
+                type="Email" 
                 placeholder='Enter eamil address' />
             </div>
 
