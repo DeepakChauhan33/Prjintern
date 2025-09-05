@@ -71,7 +71,7 @@ const CreatePage = () => {
                    <input 
                         className='h-10 outline-none'
                         type="email" 
-                        placeholder='Enter password' 
+                        placeholder='Enter email' 
                         required/>
                 </div>
 
@@ -102,7 +102,7 @@ const CreatePage = () => {
                     <input 
                         className='h-10 outline-none'
                         type="text" 
-                        placeholder='Enter password'/>
+                        placeholder='Enter Company name'/>
                 </div>
 
 
