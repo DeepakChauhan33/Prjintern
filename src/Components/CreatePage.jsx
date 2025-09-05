@@ -54,7 +54,7 @@ const CreatePage = () => {
                     <input 
                          className='h-10 outline-none'
                          type="number"
-                         placeholder='Enter password'
+                         placeholder='Enter Number'
                          required />
 
                 </div>
